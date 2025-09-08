@@ -1,0 +1,24 @@
+<suite name="Demoblaze Automation Suite" verbose="1" parallel="false">
+    
+    <!-- Run Sign Up first -->
+    <test name="SignUp Test">
+        <classes>
+            <class name="testRunner.SignUpRunner"/>
+        </classes>
+    </test>
+    
+    <!-- Run Login second -->
+    <test name="Login Test">
+        <classes>
+            <class name="testRunner.LoginRunner"/>
+        </classes>
+    </test>
+    
+    <!-- Run Products third -->
+    <test name="Products Test">
+        <classes>
+            <class name="testRunner.ProductsRunner"/>
+        </classes>
+    </test>
+    
+</suite>
